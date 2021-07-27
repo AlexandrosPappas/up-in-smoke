@@ -47,6 +47,9 @@ a{
 .active{
     color: #D2830C;
 }
+.menu-button{
+    display: none;
+}
 
 @media screen and (max-width: 768px){
     /* body{
@@ -70,6 +73,9 @@ a{
     }
     .burger{
         display: block;
+    }
+    .navigation .menu-button:checked ~ .nav-active{
+        max-height: 240px;
     }
 }
 

@@ -62,3 +62,25 @@
     filter: grayscale(100%);
     transform: scale(1.1);
 }
+@media screen and (max-width: 1025px){
+    .staff {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .outside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .other{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
