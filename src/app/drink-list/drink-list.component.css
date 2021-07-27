@@ -1,0 +1,46 @@
+main{
+    background-image: url(../../assets/backrounds/backround-menu.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+  }
+  li {
+          padding: 15px;
+          font-size: 18px;
+          font-family: Bookman, URW Bookman L, serif;
+          text-align: left;
+          color: #D2830C;
+    }
+
+    section {
+          display: flex;
+          justify-content: center;
+          margin: 0px 10px;
+          padding: 20px;
+    }
+    ul {
+          list-style: none;
+          padding: 0px 29px;
+
+    }
+    h1{
+            padding: 15px;
+            text-align: center;
+            color: #D2830C;
+            font-style: italic;
+            font-size: 55px;
+            width: 400px;
+            margin: auto;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #D2830C;
+    }
+    span{
+            color: beige;
+    }
+    @media screen and (max-width: 816px) {
+          li {
+           font-size: 12px;
+      }
+    }

@@ -1,0 +1,20 @@
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+li{
+    padding: 15px;
+    font-size: 18px;
+    font-family: Bookman, URW Bookman L, serif;
+    text-align: left;
+    color: #D2830C;
+}
+section {
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+    padding: 20px;
+}

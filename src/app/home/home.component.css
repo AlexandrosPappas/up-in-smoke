@@ -1,0 +1,59 @@
+img{
+    width: 100%;
+}
+
+.contact{
+  color: white; 
+  text-align: center;
+  font-size: 30px; 
+  padding-bottom: 15px;
+  padding-top: 30px;
+  font-family: Impact, fantasy ;
+}
+.telephone{
+  color: white; 
+  text-align: center;
+  font-size: 30px; 
+  padding-bottom: 20px;
+  font-family: Impact, fantasy ;
+}
+
+.opening{
+  background-color: white;
+  border-radius: 7px;
+}
+
+.opening{
+  background-color: black; 
+  color: white; 
+  text-align: center; 
+  font-size: 18px; 
+  padding-bottom: 10px;
+  font-family: Impact, fantasy  ;
+}
+.adress{
+  background-color: black; 
+  color: white; 
+  text-align: center; 
+  font-size: 18px; 
+  padding-bottom: 10px;
+  font-family: Impact, fantasy ;
+}
+.map{
+  display: flex;
+  justify-content: center;
+  flex: 1 1 100%;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+}
+
+.opening-adress{
+  display: flex;
+  justify-content: space-evenly;
+}
+.opening, .adress{
+  width: 400px;
+}
