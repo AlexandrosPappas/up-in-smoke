@@ -58,16 +58,17 @@ a{
         right: 0px;
         height: 92vh;
         top: 19vh;
-        background-color: black;
+        background-color: yellow;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 50%;
-        transform: translateX(100%);
+        /* transform: translateX(100%); */
         transition: transform 0.5s ease-in;
+        z-index: 10;
     }
     .nav-links li{
-        opacity: 0;
+        opacity: 1;
     }
     .burger{
         display: block;

@@ -5,20 +5,27 @@
         </label>
         
         <ul class="nav-links">
-            <li><a routerLink="/home" routerLinkActive='active'>ΑΡΧΙΚΗ</a></li>
-            <li><a routerLink="/menu" routerLinkActive='active'>ΜΕΝΟΥ</a></li>
-            <li><a routerLink="/offers" routerLinkActive='active'>ΠΡΟΣΦΟΡΕΣ</a></li>
-            <li><a routerLink="/gallery" routerLinkActive='active'>GALLERY</a></li>
-            <li><a routerLink="contact-us" routerLinkActive='active'>ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+            <ng-container [ngTemplateOutlet]="ref"></ng-container>
         </ul>
         
         <!-- <label for="burger-1"> -->
-        <ul class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+        <ul class="burger" (click)="o()" >
+
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+
+            <div *ngIf="isMobile" #v>
+                <ng-container [ngTemplateOutlet]="ref"></ng-container>
+            </div>
         </ul>
-        <!-- </label>
-        <input class="menu-button" type="checkbox" id="burger-1"> -->
     </nav>
+
+    <ng-template #ref>
+        <li><a routerLink="/home" routerLinkActive='active'>ΑΡΧΙΚΗ</a></li>
+        <li><a routerLink="/menu" routerLinkActive='active'>ΜΕΝΟΥ</a></li>
+        <li><a routerLink="/offers" routerLinkActive='active'>ΠΡΟΣΦΟΡΕΣ</a></li>
+        <li><a routerLink="/gallery" routerLinkActive='active'>GALLERY</a></li>
+        <li><a routerLink="contact-us" routerLinkActive='active'>ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+    </ng-template>
 </body>
