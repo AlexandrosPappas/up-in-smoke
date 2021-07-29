@@ -1,11 +1,11 @@
 body{
     height: 121px;
+    background-color: black;
 }
 .navigation{
     display: flex;
     justify-content: space-between;
     height: 116.15px;
-    background-color: black;
 }
 img{
     padding: 10px;
@@ -52,9 +52,7 @@ a{
 }
 
 @media screen and (max-width: 768px){
-    /* body{
-        overflow-x: hidden;
-    } */
+
     .nav-links{
         position: absolute;
         right: 0px;
@@ -74,9 +72,9 @@ a{
     .burger{
         display: block;
     }
-    .navigation .menu-button:checked ~ .nav-active{
-        max-height: 240px;
-    }
+    /* body .navigation .menu-button:checked ~ .nav-active{
+        transform: translateX(0%);
+    } */
 }
 
 .nav-active{
