@@ -43,6 +43,10 @@ nav ul li{
 a{
     text-decoration: none;
     color: white;
+    transition: 0.5s;
+}
+a:hover{
+    color: #D2830C;
 }
 .active{
     color: #D2830C;
@@ -54,27 +58,32 @@ a{
 @media screen and (max-width: 768px){
 
     .nav-links{
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 19vh;
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+      display: none;
     }
     .nav-links li{
-        opacity: 0;
+        opacity: 1;
     }
     .burger{
         display: block;
     }
-    /* body .navigation .menu-button:checked ~ .nav-active{
-        transform: translateX(0%);
-    } */
+    .mobile-nav{
+        position: absolute;
+        right: 20px;
+        border: 2px solid #D2830C;
+        list-style: none;
+        margin: 3px;
+        padding: 5px;
+        border-radius: 5px;
+        width: 300px;
+    }
+    .mobile-nav li{
+        padding: 5px;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .nav-active{
