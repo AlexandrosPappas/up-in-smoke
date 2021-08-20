@@ -58,7 +58,22 @@ a:hover{
 @media screen and (max-width: 768px){
 
     .nav-links{
+<<<<<<< HEAD
       display: none;
+=======
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 19vh;
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        /* transform: translateX(100%); */
+        transition: transform 0.5s ease-in;
+        z-index: 10;
+>>>>>>> c8708af7d687e12617c2bfd55cb41df00b03dfff
     }
     .nav-links li{
         opacity: 1;
