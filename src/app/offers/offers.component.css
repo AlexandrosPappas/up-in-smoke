@@ -1,20 +1,78 @@
 h1{
     color: white;
+    display: flex;
+    justify-content: center;
 }
-
+/* putting some colors */
 p{
     color: white;
 }
-li{
-    padding: 15px;
-    font-size: 18px;
-    font-family: Bookman, URW Bookman L, serif;
-    text-align: left;
-    color: #D2830C;
-}
-section {
+/* setting the one offer above the other */
+.offers{
     display: flex;
-    justify-content: center;
-    margin: 0px 10px;
-    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    
 }
+.offers{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url(../../assets/backrounds/backround-menu1.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+/* background */
+.offers .offer-1 .offer-1-text{
+    background-color: rgb(58, 58, 58);
+}
+.offers .offer-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* image size */
+.offers .offer-1 .offer-1-pic img{
+    width: 350px;
+    height: 450px;
+    padding: 15px;
+    transition: 1s;
+}
+/* puting the image in the center */
+.offers .offer-1 .offer-1-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Doing the same for offer 2 */
+.offers .offer-2 .offer-2-text{
+    background-color: rgb(58, 58, 58);
+}
+.offers .offer-2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.offers .offer-2 .offer-2-pic img{
+    width: 350px;
+    height: 450px;
+    padding: 15px;
+    transition: 1s;
+}
+/* puting the image in the center */
+.offers .offer-2 .offer-2-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .offers{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+footer{
+    background-color: rgb(41, 41, 41);
+  }

@@ -3,7 +3,7 @@ img{
 }
 
 .contact{
-  color: white; 
+  color: gold; 
   text-align: center;
   font-size: 30px; 
   padding-bottom: 15px;
@@ -11,7 +11,7 @@ img{
   font-family: Impact, fantasy ;
 }
 .telephone{
-  color: white; 
+  color: gold; 
   text-align: center;
   font-size: 30px; 
   padding-bottom: 20px;
@@ -19,21 +19,18 @@ img{
 }
 
 .opening{
-  background-color: white;
   border-radius: 7px;
 }
 
-.opening{
-  background-color: black; 
-  color: white; 
+.opening{ 
+  color: gold; 
   text-align: center; 
   font-size: 18px; 
   padding-bottom: 10px;
   font-family: Impact, fantasy  ;
 }
-.adress{
-  background-color: black; 
-  color: white; 
+.adress{ 
+  color: gold; 
   text-align: center; 
   font-size: 18px; 
   padding-bottom: 10px;
@@ -43,17 +40,23 @@ img{
   display: flex;
   justify-content: center;
   flex: 1 1 100%;
+  padding-bottom: 50px;
 }
-
-.video{
-  display: flex;
-  justify-content: center;
-}
-
 .opening-adress{
   display: flex;
   justify-content: space-evenly;
 }
 .opening, .adress{
   width: 400px;
+}
+main{
+  background-image: url(../../assets/backrounds/backround-menu1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer{
+  background-color: rgb(41, 41, 41);
 }
